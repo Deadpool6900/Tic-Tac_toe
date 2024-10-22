@@ -80,12 +80,12 @@ const Board = () => {
         <div>
 			<div className="max-w-screen-md flex flex-wrap items-center justify-between mx-[20px] my-[2em] p-[20px] md:mx-auto md:p-4 bg-zinc-800 rounded-xl">
 				<div className="div flex gap-10">
-					<h1 className='text-white text-xl font-bold'>Somya</h1>
+					<h1 className='text-white text-xl font-bold'>Player 1</h1>
 					<h1 className='text-red-500 text-2xl font-bold'>{score1}</h1>
 				</div>
 				<div className="div flex gap-10">
 					<h1 className='text-blue-400 text-2xl font-bold'>{score2}</h1>
-					<h1 className='text-white text-xl font-bold'>Gomya</h1>
+					<h1 className='text-white text-xl font-bold'>Player 2</h1>
 				</div>
 			</div>
 		</div>
